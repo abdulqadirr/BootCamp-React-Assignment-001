@@ -1,10 +1,16 @@
-
+import React from 'react';
 import './App.css';
+import Data from './data';
+
 
 function App() {
   return (
     <div>
-      <h1>Hello From Scorpion !</h1>
+      <Data num="1st"/>
+      <hr/>
+      <Data num="2nd"/>
+      <hr/>
+      <Data num="3rd"/>
     </div>
   );
 }
